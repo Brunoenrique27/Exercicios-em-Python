@@ -1,0 +1,5 @@
+print('Leia um programa e mostre quantas vezes aparece a letra "A", em que posição aparece a primeira vez, em que posiçao aparece a ultima vez')
+frase = str(input('Digite uma frase ')).upper().strip()
+print(f'A letra "A" aparece {frase.count("A")} vezes na frase')
+print(f'A letra "A" apareceu na posição {frase.find("A")+1}')
+print(f'A letra "A" aparece a ultima vez na posição {frase.rfind("A")+1}')
