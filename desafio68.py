@@ -1,3 +1,5 @@
+##Faça um programa que jogue par ou ímpar com o computador. O jogo só será interrompido quando o jogador perder
+# mostrando o total de vitórias consecutivas que ele conquistou no final do jogo.
 from random import randint
 cont = 0
 print('=-='*10)
@@ -17,6 +19,7 @@ while True:
         cont += 1
     else:
         if soma % 2 != 0 and opçao == 'P':
+            print(f'Maquina jogou {maquina} e voce jogou {jogador} a soma deu {soma} é IMPAR')
             break
     if soma % 2 != 0 and opçao == 'I':
         print('*'*30)

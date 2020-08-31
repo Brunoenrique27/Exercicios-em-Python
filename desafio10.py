@@ -1,3 +1,4 @@
+## Crie um programa que leia quanto dinheiro uma pessoa tem na carteira e mostre quantos dólares ela pode comprar.
 print('==================COTAÇÃO DO DOLAR=====================')
 print('valor do dolar 3,27')
 din = float(input('Quanto voce tem de dinheiro? '))

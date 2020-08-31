@@ -1,3 +1,7 @@
+##A) quantas pessoas tem mais de 18 anos
+# quantos homens foram cadastrados.
+# quantas mulheres tem menos de 20 anos.
+
 maior = toth = menor = 0
 while True:
     idade = int(input('Idade:'))

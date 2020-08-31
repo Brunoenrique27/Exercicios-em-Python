@@ -1,3 +1,5 @@
+##Faça um mini-sistema que utilize o Interactive Help do Python. O usuário vai digitar o comando e o manual vai aparecer.
+# Quando o usuário digitar a palavra ‘FIM’, o programa se encerrará. Importante: use cores.
 def linha (msg):
     tam = len(msg) + 4
     print('\033[30;44m~' * tam)

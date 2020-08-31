@@ -1,3 +1,4 @@
+
 print('AUMENTO DO FUNCIONARIO')
 sal = float(input('Digite seu salario '))
 print(f'Seu salario é de {sal}')

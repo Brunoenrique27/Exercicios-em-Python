@@ -1,3 +1,5 @@
+##erguntando para o usuário se ele quer mostrar mais alguns termos
+# O programa encerrará quando ele disser que quer mostrar 0 termos.
 termo = int(input('Digite o primeiro termo:'))
 razao = int(input('Digite a razao:'))
 laço = 0

@@ -1,3 +1,4 @@
+## Faça um algoritmo que leia o preço de um produto e mostre seu novo preço, com 5% de desconto.
 print('LIQUIDAÇÃO TOAL')
 print('O preço da tv de 50 polegadas esta saindo 1000 reais com 5% de desconto')
 desc = 1000*5/100

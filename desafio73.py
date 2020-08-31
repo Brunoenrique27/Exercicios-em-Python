@@ -1,3 +1,5 @@
+##Crie uma tupla preenchida com os 20 primeiros colocados da Tabela do Campeonato Brasileiro de Futebol, na ordem de colocação
+# Depois mostre: Os 5 primeiros times. Os últimos 4 colocados. Times em ordem alfabética.  Em que posição está o time da Chapecoense.
 tabela = 'Flamengo', 'Santos', 'Palmeiras', 'Grêmio',\
         'Atlhetico-PR', 'São Paulo', 'Internacional', 'Corinthians',\
         'Fortaleza', 'Goias', 'Bahia', 'Vasco', 'Atlético-MG',\

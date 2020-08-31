@@ -2,6 +2,7 @@ lista = []
 def cadastrar(msg):
     lista.append(msg)
 
+
 def remover():
     lista.pop()
 

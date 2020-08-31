@@ -1,3 +1,4 @@
+## Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.
 print('TABUADA')
 num = int(input('Digite um numero '))
 print(f'O numero {num} sera transformado em tabuada')

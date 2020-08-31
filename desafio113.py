@@ -1,3 +1,4 @@
+# Tratamento de exceções
 def leiaint(n):
     while True:
         try:

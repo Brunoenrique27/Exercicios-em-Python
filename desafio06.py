@@ -1,4 +1,4 @@
-nome = input('Crie um algortimo que leia um numero e mostre seu dobro seu triplo e sua raiz quadra')
+##Crie um algortimo que leia um numero e mostre seu dobro seu triplo e sua raiz quadra'
 n1 = int(input('Digite um numero'))
 do = n1*2
 tri = n1*3
