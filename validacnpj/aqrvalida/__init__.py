@@ -13,8 +13,8 @@ def verificador(cnpj):
     else:
         primeiro = cnpj[:-2]  # eliminina os dois ultimos numeros do CNPJ
         segundo = cnpj[:-1]
-        digito1 = valida(primeiro, 1)  # aqui sera efetuado pra saber o primeiro numero do CNPJ
-        digito2 = valida(segundo, 2)    ##aqui sera efetuado pra saber o segundo numero do CNPJ
+        digito1 = valida(primeiro, 1)  # aqui sera efetuado pra saber o primeiro digito do CNPJ
+        digito2 = valida(segundo, 2)    ##aqui sera efetuado pra saber o segundo digito do CNPJ
         resultado = confere(cnpj, digito1, digito2)
         return resultado
 
