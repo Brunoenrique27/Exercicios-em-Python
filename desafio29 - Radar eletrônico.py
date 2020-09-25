@@ -8,4 +8,4 @@ if velo > 80:
     print(f'Sua velocidade foi de {velo}km/h e voce foi multado')
     print(f'Sua multa sera de {multa} reais por km excedido')
 else:
-    print('Parabens voce nao foi multado')
+    print('Parabens voce não foi multado')

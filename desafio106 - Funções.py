@@ -7,14 +7,14 @@ def linha (msg):
     print('~' * tam)
 
 
-def manual(com):
-    txt = f'Acessando os dados de `{com}´'
+def manual(valor):
+    txt = f'Acessando os dados de `{valor}´'
     tam = len(txt) +6
     print('\033[30;42m~'*tam)
     print(f'  {txt}')
     print('~'*tam)
     print('\033[m\033[7;30m')
-    help(com)
+    help(valor)
     print('\033[m')
 
 

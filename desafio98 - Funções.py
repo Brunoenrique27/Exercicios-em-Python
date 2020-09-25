@@ -21,6 +21,7 @@ def contador(inicio, fim , passo):
             print(f'{c}', end=' ')
             sleep(0.4)
         print('FIM')
+
 contador(1,10,1)
 contador(0,10,2)
 print('-='*20)

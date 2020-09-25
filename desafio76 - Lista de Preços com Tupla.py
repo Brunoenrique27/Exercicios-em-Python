@@ -7,7 +7,7 @@ print('-'*50)
 print(f'{"LISTAGEM DE PREÇO":^50}')
 print('-'*50)
 for item in range(0, len(lista)):    #mostra o total da lista
-    if item % 2 == 0:                  #primeiro numero entre o total dividido por 2 = 0
+    if item % 2 == 0:                  #primeiro numero entre o total dividido por 2 que o resto é 0
         print(f'{lista[item]:.<30}', end=' ')
     if item % 2 !=0:
         print(f'R${lista[item]:>7.2f}')
