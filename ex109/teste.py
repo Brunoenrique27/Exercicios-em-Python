@@ -1,3 +1,5 @@
+"""Formatando Moedas em Python"""
+
 from ex109 import moeda
 preço = float(input('Digite o preço: R$ '))
 print(f'A metade de {moeda.formatado(preço)} é {moeda.metade(preço, True)}.')

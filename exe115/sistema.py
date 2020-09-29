@@ -1,3 +1,4 @@
+"""Criando um menu em Python"""
 from exe115.bibli.arquivo import *
 from time import sleep
 
